@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if (count >= 63)
+        if (count >= 64)
         {
             winText.text = "You Escaped!";
         }
